@@ -1,0 +1,22 @@
+{
+  "name": "harryvanbot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that uses wa-open.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src ./src/index.js"
+  },
+  "author": "Tom Smits",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.0.15",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "spotify-web-api-node": "^5.0.0"
+  }
+}
